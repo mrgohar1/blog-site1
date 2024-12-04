@@ -1,0 +1,169 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  width: 825px;
+  height: auto;
+  border: 3px solid black;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 0 8px 10px rgba(38, 36, 36, 0.221);
+}
+.row-container {
+  width: 100%;
+  overflow: hidden; /* Clear floats */
+  padding: 20px 0;
+}
+h1::before {
+  content: "Sale";
+  background-color: red;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  text-transform: capitalize;
+  padding: 3px;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 30px;
+  font-size: x-large;
+}
+img {
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+.price {
+  margin: 5px;
+}
+.ship {
+  color: gray;
+  margin: 5px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+a {
+  color: green;
+  font-weight: bold;
+  margin: 5px;
+}
+p {
+  font-weight: bold;
+  margin: 5px;
+}
+.parent-div {
+  position: relative;
+  margin-top: 20px;
+}
+.child-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: blue;
+}
+.child-2 {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: green;
+}
+.child-3 {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(215, 121, 13);
+}
+.child-4 {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(109, 155, 198);
+}
+.child-5 {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(213, 27, 114);
+}
+.child-6 {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(192, 132, 168);
+}
+.P-details {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ul,
+li {
+  margin-left: 20px;
+  list-style: square;
+}
+button {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  color: #f7f7f7;
+  font-weight: bold;
+  font-size: medium;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.F-div {
+  position: relative;
+  width: 40%;
+  float: left;
+  margin-right: 20px;
+}
+.S-div {
+  float: left;
+  width: 30%;
+}
+button::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 3px;
+  padding: 5px;
+  content: "ᗷY ᗰᗩᒪᗩK";
+  background-color: gray;
+  border-radius: 50%;
+  font-weight: lighter;
+}
